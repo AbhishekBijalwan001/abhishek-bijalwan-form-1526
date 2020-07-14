@@ -102,15 +102,10 @@ if(fullname.value !== ""){
     // End your conditional here.
     
     if(misprint.length > 0){
-        console.log(misprint);
+        console.log('ERRORS', misprint);
     }
     else{
-        console.log(formContent);
-        document.getElementById("fullname").value = "";
-        
-         document.getElementById("email").value = "";
-        
-         document.getElementById("message").value = "";
+        console.log('COLLECTED DATA', formContent);
     }
 
 // Close your function here
